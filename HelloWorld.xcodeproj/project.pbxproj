@@ -19,6 +19,8 @@
 		AC0694981839FAFF0088D515 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC0694801839FAFF0088D515 /* UIKit.framework */; };
 		AC0694A01839FAFF0088D515 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC06949E1839FAFF0088D515 /* InfoPlist.strings */; };
 		AC0694A21839FAFF0088D515 /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0694A11839FAFF0088D515 /* HelloWorldTests.m */; };
+		AC0694AE1839FB100088D515 /* BSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0694AC1839FB100088D515 /* BSViewController.m */; };
+		AC0694AF1839FB100088D515 /* BSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC0694AD1839FB100088D515 /* BSViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		AC06949D1839FAFF0088D515 /* HelloWorldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloWorldTests-Info.plist"; sourceTree = "<group>"; };
 		AC06949F1839FAFF0088D515 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AC0694A11839FAFF0088D515 /* HelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldTests.m; sourceTree = "<group>"; };
+		AC0694AB1839FB100088D515 /* BSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSViewController.h; sourceTree = "<group>"; };
+		AC0694AC1839FB100088D515 /* BSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSViewController.m; sourceTree = "<group>"; };
+		AC0694AD1839FB100088D515 /* BSViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,9 @@
 			children = (
 				AC06948B1839FAFF0088D515 /* BSAppDelegate.h */,
 				AC06948C1839FAFF0088D515 /* BSAppDelegate.m */,
+				AC0694AB1839FB100088D515 /* BSViewController.h */,
+				AC0694AC1839FB100088D515 /* BSViewController.m */,
+				AC0694AD1839FB100088D515 /* BSViewController.xib */,
 				AC06948E1839FAFF0088D515 /* Images.xcassets */,
 				AC0694831839FAFF0088D515 /* Supporting Files */,
 			);
@@ -221,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC0694871839FAFF0088D515 /* InfoPlist.strings in Resources */,
+				AC0694AF1839FB100088D515 /* BSViewController.xib in Resources */,
 				AC06948F1839FAFF0088D515 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC0694AE1839FB100088D515 /* BSViewController.m in Sources */,
 				AC0694891839FAFF0088D515 /* main.m in Sources */,
 				AC06948D1839FAFF0088D515 /* BSAppDelegate.m in Sources */,
 			);
